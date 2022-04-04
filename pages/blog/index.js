@@ -4,6 +4,7 @@ import styles from '../../styles/Home.module.css'
 import * as Constant from '../../src/constant.js'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import dataJson from '../../src/db.json'
 
 export default function Posts({ externalPostData }) {
     const router = useRouter()
@@ -12,6 +13,7 @@ export default function Posts({ externalPostData }) {
     } = router
     return (
         <div className='container'>
+            <main className={styles.mainBlog}>
             <div className='p-2'>
             <h1 className='mb-2'>Blog</h1>
             <div className='row p-2'>
@@ -30,17 +32,27 @@ export default function Posts({ externalPostData }) {
             })}
             </div>
             </div>
+            </main>
+            <footer className={styles.footer}>
+                <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                Copyright © Amal Khairin
+                </a>
+            </footer>
         </div>
     )
 }
 
 export async function getStaticProps() {
-  const apiURL = "http://localhost:3001/posts";
-  const response = await fetch(apiURL);
-  const data = await response.json();
-  return {
-      props: {
-        externalPostData: data,
-      },
+//   const apiURL = "http://localhost:3001/posts";
+//   const response = await fetch(apiURL);
+//   const data = await response.json();
+    // console.log(dataJson.posts)
+    return {
+        props: {
+            externalPostData: dataJson.posts,
+        },
     };
 }

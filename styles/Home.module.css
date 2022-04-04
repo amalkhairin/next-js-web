@@ -12,6 +12,7 @@
   align-items: center;
   align-content: center;
   align-self: center;
+  color: #0F68BB;
 }
 
 .username {
@@ -71,6 +72,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.mainBlog {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
 }
 
 .footer {
