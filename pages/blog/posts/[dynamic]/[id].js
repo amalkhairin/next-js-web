@@ -1,4 +1,4 @@
-import { getAllPostIds, getPostData } from '../../../lib/posts'
+import { getAllPostIds, getPostData } from '../../../../lib/posts'
 import Link from 'next/link'
 import * as Constant from '../../../../src/constant.js'
 import Image from 'next/image'
