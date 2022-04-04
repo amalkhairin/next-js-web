@@ -46,10 +46,6 @@ export default function Posts({ externalPostData }) {
 }
 
 export async function getStaticProps() {
-//   const apiURL = "http://localhost:3001/posts";
-//   const response = await fetch(apiURL);
-//   const data = await response.json();
-    // console.log(dataJson.posts)
     return {
         props: {
             externalPostData: dataJson.posts,
