@@ -2,6 +2,67 @@
   padding: 0 2rem;
 }
 
+.profile {
+  border-radius: 50%;
+}
+
+.usernameGroup {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.username {
+  text-align: center;
+  color: #0F68BB;
+}
+
+.shareIcon {
+  padding: 20px;
+  margin: 20px;
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0F68BB;
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 10px 10px;
+}
+
+.btn:hover {
+  background-color: #2081db;
+}
+
+.btn:active {
+  background-color: #0d5da8;
+}
+
+.image-container {
+
+  width: 100%;
+}
+
+.image-container div {
+  position: unset !important;
+}
+
+.image-container .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -70,19 +131,24 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
   max-width: 800px;
 }
 
 .card {
-  margin: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 1rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
+  background-color: white;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
+  display: block;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  /* max-width: 100%; */
 }
 
 .card:hover,

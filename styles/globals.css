@@ -1,9 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
+  margin-top: 10px;
+  /* padding: 0;
+  margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #F9F9F9 1px, transparent 1px),
+    linear-gradient(to bottom, #F9F9F9 1px, transparent 1px);
 }
 
 a {
@@ -11,6 +20,94 @@ a {
   text-decoration: none;
 }
 
-* {
+.post-bg {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* * {
   box-sizing: border-box;
+} */
+
+/* .card {
+  width: 100%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  /* max-width: 100%; */
+
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.cn {
+  /* background-color: #F39C12; */
+  display: block;
+}
+
+.container {
+  width: 100% !important;
+}
+
+.content {
+  color: #3F3D56;
+}
+
+.content-author {
+  font-size: 16px; 
+  color: gray;
+}
+
+.content-body {
+  font-size: 24px;
+}
+
+.content-title {
+  font-weight: bold;
+}
+
+.btn-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  border: 1px solid #F39C12;
+  border-radius: 10px;
+  margin: 4px;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.icon-color {
+  color: #F39C12 !important;
 }

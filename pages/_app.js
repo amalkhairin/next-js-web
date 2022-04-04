@@ -1,3 +1,5 @@
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {

@@ -1,0 +1,5 @@
+export const QURAN_URL = "https://drive.google.com/uc?export=download&id=1RzmtZ67uh7iPI03mwV3h9zcIi15DXlNr"
+export const LINKED_IN_URL = "https://www.linkedin.com/in/amal-khairin/"
+export const INSTAGRAM_URL = "https://www.instagram.com/amalkhrn/"
+export const GITHUB_URL = "https://github.com/amalkhairin"
+export const GMAIL_ADDRESS = "amalkhairinn@gmail.com"
