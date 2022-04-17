@@ -1,0 +1,22 @@
+{
+    "fonts": [
+        {
+            "id": "1",
+            "created_at": "April 17th 2022",
+            "author": "Amal Khairin",
+            "name": "Khairan-Font",
+            "alias": "Khairan-Font",
+            "excerpt": "Free handwriting font",
+            "license_note": "This font is free for personal use and commercial use",
+            "license": ["Free for personal","Free for commercial"],
+            "paypal_donate_url": "https://www.paypal.me/amlkhrn",
+            "url": "https://drive.google.com/uc?export=download&id=18DNYpcb2_3KNaX7M4ZsJ_3HGSeucaJ1k",
+            "pictures": [
+                "https://i.ibb.co/GxSf4jD/Dribbble-shot-1.png",
+                "https://i.ibb.co/0jbDppd/Dribbble-shot-2.png",
+                "https://i.ibb.co/0VQvy4K/Dribbble-shot-3.png",
+                "https://i.ibb.co/8KJ6K0k/Dribbble-shot-4.png"
+            ]
+        }
+    ]
+}
