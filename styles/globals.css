@@ -56,8 +56,12 @@ a {
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  cursor: pointer;
   border-color: #0070f3;
+}
+
+.blog-header {
+  color: #3F3D56;
 }
 
 .card h2 {
@@ -85,6 +89,15 @@ h2 {
   color: #3F3D56;
 }
 
+.username {
+  text-align: center;
+  color: #0F68BB;
+}
+
+.btn-text-color {
+  color: white;
+}
+
 .cn {
   /* background-color: #F39C12; */
   display: block;
@@ -101,6 +114,30 @@ h2 {
 .content-author {
   font-size: 16px; 
   color: gray;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 18px;
+}
+
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.link {
+  cursor: pointer;
 }
 
 .content-body {

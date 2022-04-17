@@ -18,6 +18,7 @@
 .username {
   text-align: center;
   color: #0F68BB;
+  font-weight: bold;
 }
 
 .shareIcon {
@@ -38,14 +39,17 @@
   text-align: center;
   display: block;
   margin: 10px 10px;
+  color: white;
 }
 
 .btn:hover {
   background-color: #2081db;
+  color: white;
 }
 
 .btn:active {
   background-color: #0d5da8;
+  color: white;
 }
 
 .image-container {
