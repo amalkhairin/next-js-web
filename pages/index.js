@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import profile_pict from '../public/profile_pict.jpeg'
 import * as Constant from '../src/constant.js'
 import Link from 'next/link'
+import { LightningBoltIcon } from "@heroicons/react/solid";
 
 
 export default function Home() {
@@ -21,25 +22,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <a href='#' className={styles.shareIcon}>
+        {/* <a href='#' className={styles.shareIcon}>
           <i className="bi bi-share-fill icon icon-color"></i>
-        </a>
+        </a> */}
       </div>
       <main className={styles.main}>
         <div className='avatar'>
           <Image src={profile_pict} alt="Avatar" width='100vw' height='100vw' className={styles.profile} />
         </div>
         <div className={styles.usernameGroup}>
-          <Link href={{pathname: "/about"}} className={styles.username}>amalkhairin</Link>
+          <div className='username'>amalkhairin</div>
         </div>
 
         <div>
-          <button onClick={() => handleClick(Constant.QURAN_URL)} className={styles.btn}>Download QuranPro</button>
-          <button className={styles.btn}>[Coming Soon] Url Shortener</button>
+          <Link href={{pathname: "/about"}} passHref>
+            <button className={styles.btn}><div>About</div></button>
+          </Link>
+          <Link href={{pathname: "/apps"}} passHref>
+            <button className={styles.btn}><div>Apps</div></button>
+          </Link>
           <Link href={{pathname: "/blog"}} passHref>
             <button className={styles.btn}>Blog</button>
           </Link>
-          <button onClick={() => handleClick(Constant.INSTAGRAM_H_URL)} className={styles.btn}>Hobbies</button>
+          <Link href={{pathname: "/hobbies"}} passHref>
+            <button className={styles.btn}>Hobbies</button>
+          </Link>
         </div>
 
         <div>
@@ -57,13 +64,9 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <p>
           Copyright © Amal Khairin
-        </a>
+        </p>
       </footer>
     </div>
   )
