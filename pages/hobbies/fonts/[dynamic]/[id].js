@@ -13,7 +13,7 @@ export default function Font({ fontData }) {
       <div>
       <Head>
         <title>{fontData.data.name} | {fontData.data.author}</title>
-        <meta name="description" content={fontData.data.excerpt.substring(0,15)} />
+        <meta name="description" content={fontData.data.excerpt} />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico" />
     </Head>
