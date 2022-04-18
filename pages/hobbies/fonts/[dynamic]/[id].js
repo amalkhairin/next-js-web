@@ -34,7 +34,7 @@ export default function Font({ fontData }) {
                     <p>{fontData.data.license_note}</p>
                 </blockquote>
                 <blockquote>
-                    If you want DONATE click here {fontData.data.paypal_donate_url  } <br></br>
+                    If you want to donate or buy me a coffee, click here {fontData.data.paypal_donate_url  } <br></br>
                     I really appreciate your donations. <br></br>
                 </blockquote>
                 {fontData.data.pictures.map((data,i) => {
