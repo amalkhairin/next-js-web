@@ -30,7 +30,7 @@ export default function Posts({ externalPostData }) {
                                 <div className="card-body">
                                     <h2 className="card-title">{data.title}</h2>
                                     <h6 className="card-subtitle mb-2 text-muted">Posted on {data.created_at}</h6>
-                                    <p className="card-text" style={{fontSize: '1rem'}}>{data.body.substring(0,250)}</p>
+                                    <p className="card-text" style={{fontSize: '1rem'}}>{data.excerpt.substring(0,250)}</p>
                                 </div>
                             </Link>
                         </div>

@@ -4,6 +4,7 @@ import Head from 'next/head'
 import * as Constant from '../../../../src/constant.js'
 import Image from 'next/image'
 import profile_pict from '../../../../public/profile_pict.jpeg'
+import parse from 'html-react-parser'
 
 export default function Post({ postData }) {
   return (
@@ -34,7 +35,9 @@ export default function Post({ postData }) {
                 </div>
             </div>
             <h1 className='content-title pb-2'>{postData.data.title}</h1>
-            <p className='content-body'>{postData.data.body}</p>
+            <div className='content-body'>
+                {parse(postData.data.body)}
+            </div>
         </div>
       </div>
     </div>

@@ -144,6 +144,11 @@ blockquote p {
   font-size: 24px;
 }
 
+.content-body h3 {
+  font-size: 26;
+  font-weight: bold;
+}
+
 .content-title {
   font-weight: bold;
 }
@@ -163,4 +168,10 @@ blockquote p {
 
 .icon-color {
   color: #F39C12 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-body {
+    font-size: 16px;
+  }
 }
