@@ -11,7 +11,7 @@ export default function Post({ postData }) {
       <div>
       <Head>
         <title>{postData.data.title} | {postData.data.author}</title>
-        <meta name="description" content={postData.data.excerpt.substring(0,15)} />
+        <meta name="description" content={postData.data.excerpt.substring(0,25)} />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico" />
     </Head>
