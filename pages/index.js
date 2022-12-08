@@ -41,8 +41,9 @@ export default function Home() {
           <Link href={{pathname: "/apps"}} passHref>
             <button className={styles.btn}><div>Apps</div></button>
           </Link>
-          <Link href={{pathname: "/blog"}} passHref>
-            <button className={styles.btn}>Blog</button>
+          <Link href={{pathname: "#"}} passHref>
+            <button onClick={() => handleClick("https://medium.com/@amalkhairin")}
+             className={styles.btn}>Blog</button>
           </Link>
           <Link href={{pathname: "/hobbies"}} passHref>
             <button className={styles.btn}>Hobbies</button>
@@ -61,21 +62,20 @@ export default function Home() {
           </button>
         </div>
 
-        <div style={{ marginTop: 40 }}>
-          <p style={{ textAlign: 'center', fontSize:8 }}>
-            This website was built using the following tech-stack:
-          </p>
-          <p style={{ textAlign: 'center', fontSize:8 }}>
-            Next.js, Node.js, React, Vercel, Tailwind CSS
-          </p>
-        </div>
-
       </main>
 
       <footer className={styles.footer}>
         <p>
           2022 © Amal Khairin
         </p>
+        <div style={{ marginTop: 10 }}>
+          <p style={{ textAlign: 'center', fontSize:9 }}>
+            This website was built using the following tech-stack:
+          </p>
+          <p style={{ textAlign: 'center', fontSize:9 }}>
+            <b>Next.js, Node.js, React, Vercel, Tailwind CSS</b>
+          </p>
+        </div>
       </footer>
     </div>
   )
