@@ -68,6 +68,7 @@ export default function Home() {
         <p>
           2022 © Amal Khairin
         </p>
+        <br></br>
         <div style={{ marginTop: 10 }}>
           <p style={{ textAlign: 'center', fontSize:9 }}>
             This website was built using the following tech-stack:
