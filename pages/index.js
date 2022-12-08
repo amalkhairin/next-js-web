@@ -41,7 +41,7 @@ export default function Home() {
           <Link href={{pathname: "/apps"}} passHref>
             <button className={styles.btn}><div>Apps</div></button>
           </Link>
-          <Link href={{pathname: "#"}} passHref>
+          <Link href={{pathname: ""}} passHref>
             <button onClick={() => handleClick("https://medium.com/@amalkhairin")}
              className={styles.btn}>Blog</button>
           </Link>
