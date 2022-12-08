@@ -62,14 +62,7 @@ export default function Home() {
           </button>
         </div>
 
-      </main>
-
-      <footer className={styles.footer}>
-        <p>
-          2022 © Amal Khairin
-        </p>
-        <br></br>
-        <div style={{ marginTop: 10 }}>
+        <div style={{ marginTop: 40 }}>
           <p style={{ textAlign: 'center', fontSize:9 }}>
             This website was built using the following tech-stack:
           </p>
@@ -77,6 +70,13 @@ export default function Home() {
             <b>Next.js, Node.js, React, Vercel, Tailwind CSS</b>
           </p>
         </div>
+
+      </main>
+
+      <footer className={styles.footer}>
+        <p>
+          2022 © Amal Khairin
+        </p>
       </footer>
     </div>
   )
