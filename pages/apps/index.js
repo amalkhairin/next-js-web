@@ -40,7 +40,7 @@ export default function Apps() {
             </main>
             <footer className={styles.footer}>
                 <p>
-                Copyright © Amal Khairin
+                2022 © Amal Khairin
                 </p>
             </footer>
         </div>

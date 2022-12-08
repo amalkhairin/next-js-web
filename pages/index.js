@@ -61,11 +61,20 @@ export default function Home() {
           </button>
         </div>
 
+        <div style={{ marginTop: 40 }}>
+          <p style={{ textAlign: 'center', fontSize:8 }}>
+            This website was built using the following tech-stack:
+          </p>
+          <p style={{ textAlign: 'center', fontSize:8 }}>
+            Next.js, Node.js, React, Vercel, Tailwind CSS
+          </p>
+        </div>
+
       </main>
 
       <footer className={styles.footer}>
         <p>
-          Copyright © Amal Khairin
+          2022 © Amal Khairin
         </p>
       </footer>
     </div>
