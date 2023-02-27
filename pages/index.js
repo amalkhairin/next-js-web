@@ -31,7 +31,7 @@ export default function Home() {
           <Image src={profile_pict} alt="Avatar" width='100vw' height='100vw' className={styles.profile} />
         </div>
         <div className={styles.usernameGroup}>
-          <div className='username'>amalkhairin</div>
+          <div className='username'><b>Amal Khairin</b></div>
         </div>
 
         <div>
