@@ -27,7 +27,7 @@ export default function Apps() {
                 <div className='col p-2'>
                     <div className='row'>
                         <div className="card m-2" style={{width: '12rem'}}>
-                            <Image src={quran_thumbnail} alt="Avatar"  className="card-img-top" style={{ height: 200 }} />
+                            <Image src={quran_thumbnail} alt="Avatar"  className="card-img-top" style={{ height: 200, marginTop: 10 }} />
                             <div className="card-body">
                                 <h2 className="card-title">QuranPro</h2>
                                 <h5 className="card-text pb-2">Aplikasi Al-Quran dan Terjemahan bahasa Indonesia</h5>
