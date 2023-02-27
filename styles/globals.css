@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+  border: red 1px solid;
+} */
+
 html,
 body {
   margin-top: 10px;

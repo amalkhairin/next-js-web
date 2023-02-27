@@ -28,7 +28,11 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <div className='avatar'>
+<<<<<<< HEAD
           <Image src={profile_pict} alt="Avatar" width={100} height={100} className={styles.profile} />
+=======
+          <Image src={profile_pict} alt="Avatar" width='100' height='100' className={styles.profile}/>
+>>>>>>> 213432d68160adb869b6778baddaae6cf56e098a
         </div>
         <div className={styles.usernameGroup}>
           <div className='username'><b>Amal Khairin</b></div>
@@ -75,7 +79,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>
-          2022 © Amal Khairin
+          2023 © Amal Khairin
         </p>
       </footer>
     </div>

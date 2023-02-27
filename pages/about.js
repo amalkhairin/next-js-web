@@ -57,7 +57,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          2022 © Amal Khairin
+          2023 © Amal Khairin
         </a>
       </footer>
     </div>
