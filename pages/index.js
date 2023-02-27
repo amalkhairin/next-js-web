@@ -67,7 +67,7 @@ export default function Home() {
             This website was built using the following tech-stack:
           </p>
           <p style={{ textAlign: 'center', fontSize:9 }}>
-            <b>Next.js, Node.js, React, Vercel, Tailwind CSS</b>
+            <b>Next.js, Node.js, React, Vercel, HTML5, Tailwind CSS</b>
           </p>
         </div>
 
