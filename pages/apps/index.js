@@ -140,7 +140,7 @@ export default function Apps() {
                                         </div>
                                     </div>
                                 </div>
-                                <h5 className="card-text pb-2">A backend-side application that provides an API for library app</h5>
+                                <h5 className="card-text pb-2">Amal&apos;s personal website</h5>
                                 <button onClick={() => handleClick(Constant.NEXT_URL)} className="btn btn-primary">Visit Website</button>
                             </div>
                         </div>
