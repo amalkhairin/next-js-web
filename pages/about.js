@@ -22,7 +22,7 @@ export default function About() {
     </Head>
       <main className={styles.main}>
         <div className='avatar'>
-          <Image src={profile_pict} alt="Avatar" width='100vw' height='100vw' className={styles.profile} />
+          <Image src={profile_pict} alt="Avatar" width={100} height={100} className={styles.profile} />
         </div>
         <h2 className='pt-4 pb-3'>About Me</h2>
     
