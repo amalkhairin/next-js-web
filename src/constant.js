@@ -1,4 +1,7 @@
 export const QURAN_URL = "https://drive.google.com/uc?export=download&id=1RzmtZ67uh7iPI03mwV3h9zcIi15DXlNr"
+export const KAWA_URL = "https://kawacakescookies.com/"
+export const RUBY_URL = "https://github.com/amalkhairin/library-app/wiki#documentation-libary-app"
+export const NEXT_URL = "https://www.amalkhairin.site/"
 export const LINKED_IN_URL = "https://www.linkedin.com/in/amal-khairin/"
 export const INSTAGRAM_URL = "https://www.instagram.com/amalkhrn/"
 export const INSTAGRAM_H_URL = "https://www.instagram.com/art.maruu/"
