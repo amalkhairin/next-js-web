@@ -33,6 +33,41 @@ export default function About() {
             I have <b>interest</b> in Software Development, Machine Learning, and Data Visualization. My <b>hobbies</b> are Gaming, Watching Movies or Series, and Drawing.
         </p>
 
+        <h2 className='mt-5 mb-3'>Experiences (latest)</h2>
+
+        <div class="timeline">
+            <div class="time-container left">
+                <div class="time-content">
+                    <h2>February - August 2022</h2>
+                    <h4 style={{ color: '#474e5d' }} className='mt-2'><strong>Backend Engineer - Apprenticeship</strong></h4>
+                    <h6><small>Yayasan Anak Bangsa Bisa (Gen. GIGIH 2.0)</small></h6>
+                    <p className='mt-2' style={{ fontSize:10 }}><small>Yayasan Anak Bangsa Bisa (YABB) is the impact-driven non-profit organization of the GoTo Group, established to enable changemakers who are committed to breaking traditional ways of problem solving so everyone can ThriveForward, ThriveGreener, and ThriveTogether</small></p>
+                    <p className='mt-3' style={{ fontSize:10 }}><b>Responsibility:</b></p>
+                    <ul style={{ fontSize:10 }}>
+                      <li> • Studied backend engineering using Ruby on Rails framework.</li>
+                      <li> • Develop a backend product based on the project capstone scheme.</li>
+                      <li> • Responsible for creating API functions of the project application.</li>
+                    </ul>
+                    <a href='../apps' className='btn btn-sm btn-primary mt-3'>Product: Library App</a>
+                </div>
+            </div>
+            <div class="time-container right">
+                <div class="time-content">
+                    <h2>July - August 2021</h2>
+                    <h4 style={{ color: '#474e5d' }} className='mt-2'><strong>Android Developer - Internship</strong></h4>
+                    <h6><small>Indonesian Institute of Sciences (LIPI)</small></h6>
+                    <p className='mt-2' style={{ fontSize:10 }}><small>P21 LIPI is a national research institution and scientifict research and development</small></p>
+                    <p className='mt-3' style={{ fontSize:10 }}><b>Responsibility:</b></p>
+                    <ul style={{ fontSize:10 }}>
+                      <li> • Responsible for making UI-based prototype applications and application design architectures.</li>
+                      <li> • Responsible for making application frontend.</li>
+                      <li> • Responsible for performing unit tests on applications.</li>
+                      <li> • Responsible for creating apps documentation.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <h2 className='pt-5 pb-3'>Contact Me</h2>
         <div>
           <button className='btn-icon' onClick={() => handleClick(Constant.LINKED_IN_URL)}>
