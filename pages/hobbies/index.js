@@ -37,7 +37,7 @@ export default function Hobbies({ externalPostData }) {
                             <div className="card-body">
                                 <h2 className="card-title">Instagram</h2>
                                 <h6 className="card-text pb-2">Digital Illustration Galleries</h6>
-                                <button onClick={() => handleClick(Constant.INSTAGRAM_H_URL)} className="btn btn-primary">Open</button>
+                                <button className="btn btn-primary">Open</button>
                             </div>
                         </div>
                         <div className="card m-2" style={{width: '12rem'}}>
