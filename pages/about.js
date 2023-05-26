@@ -27,7 +27,7 @@ export default function About() {
         <h2 className='pt-4 pb-3'>About Me</h2>
     
         <p className='pb-4 about-text' style={{textAlign: 'center', maxWidth: '75%'}}>
-            Hi, my name is <b>Amal Khairin</b>. I&apos;m a fresh graduate with a bachelor&apos;s degree in Informatics at Telkom University. I have strong technical skills and an academic background in <b>Software Development</b> or <b>Programming</b>. I have <b>experience</b> in Android development using Flutter framework and Back-end Development using Ruby on rails and Laravel. I also have <b>skills</b> in Node.js, Express.js, Next.js, PHP, SQL, Javascript, and Python.
+            Hi, my name is <b>Amal Khairin</b>.I have strong technical skills and an academic background in <b>Software Development</b> or <b>Programming</b>. I have <b>experience</b> in Android development using Flutter framework and Full-stack Development using Laravel and Codeigniter. I also have <b>skills</b> in Node.js, Express.js, Next.js, PHP, SQL, Javascript, Ruby on Rails and Python.
         </p>
         <p className='pb-2 about-text' style={{textAlign: 'center', maxWidth: '75%'}}>
             I have <b>interest</b> in Software Development, Machine Learning, and Data Visualization. My <b>hobbies</b> are Gaming, Watching Movies or Series, and Drawing.
