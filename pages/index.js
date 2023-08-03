@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <div className='avatar'>
-          <Image src={profile_pict} alt="Avatar" width={100} height={100} className={styles.profile} />
+          // <Image src={profile_pict} alt="Avatar" width={100} height={100} className={styles.profile} />
         </div>
         <div className={styles.usernameGroup}>
           <div className='username'><b>Amal Khairin</b></div>
