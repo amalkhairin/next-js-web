@@ -115,6 +115,55 @@ export default function Apps() {
                             </div>
                         </div>
                     </div>
+                    
+                    <div className='col col-auto'>
+                        <div className="card m-2" >
+                            <div className='card-header'>
+                                <h3 style={{ fontWeight: 'bold' }}>CIP Systen Application</h3>
+                            </div>
+                            <div className="card-body">
+                                <img src="ruby_thumbnail.png" width={200} height={100} alt="Avatar" className="card-img-top mb-3" style={{objectFit: 'cover', height:100, width:300}} />
+                                <div className='row row-cols-3 mb-2 mx-auto'>
+                                    <div className='col col-auto p-0 m-1'>
+                                        <div className='card' style={{ padding: 6, background: '#D13F3F', color: 'white' }}>
+                                            <span style={{ fontSize:9 }}>CodeIgniter</span>
+                                        </div>
+                                    </div>
+                                    <div className='col col-auto p-0 m-1'>
+                                        <div className='card' style={{ padding: 6, background: '#D13F3F', color: 'white' }}>
+                                            <span style={{ fontSize:9 }}>PHP</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 className="card-text pb-2">Capital Investment Planning (CIP) is a process, methodology and tool to identify priority infrastructure in a city's development plan.</h5>
+                                <button onClick={() => handleClick(Constant.CIP_URL)} className="btn btn-primary">Visit Web</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className='col col-auto'>
+                        <div className="card m-2" >
+                            <div className='card-header'>
+                                <h3 style={{ fontWeight: 'bold' }}>BERGERAK1912</h3>
+                            </div>
+                            <div className="card-body">
+                                <img src="ruby_thumbnail.png" width={200} height={100} alt="Avatar" className="card-img-top mb-3" style={{objectFit: 'cover', height:100, width:300}} />
+                                <div className='row row-cols-3 mb-2 mx-auto'>
+                                    <div className='col col-auto p-0 m-1'>
+                                        <div className='card' style={{ padding: 6, background: '#1D77CA', color: 'white' }}>
+                                            <span style={{ fontSize:9 }}>Flutter</span>
+                                        </div>
+                                    </div>
+                                    <div className='col col-auto p-0 m-1'>
+                                        <div className='card' style={{ padding: 6, background: '#00BF71', color: 'white' }}>
+                                            <span style={{ fontSize:9 }}>Android</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 className="card-text pb-2">BERGERAK1912 is an application intended for volunteers of one of Indonesia's presidential candidates in the 2024 election</h5>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className='col col-auto'>
                         <div className="card m-2" >

@@ -38,6 +38,23 @@ export default function About() {
         <div class="timeline">
             <div class="time-container left">
                 <div class="time-content">
+                    <h2>Maret - August 2023</h2>
+                    <h4 style={{ color: '#474e5d' }} className='mt-2'><strong>Full-stack Web Developer - Full-time</strong></h4>
+                    <h6><small>PT Lenggogeni</small></h6>
+                    <p className='mt-2' style={{ fontSize:10 }}><small>-</small></p>
+                    <p className='mt-3' style={{ fontSize:10 }}><b>Responsibility:</b></p>
+                    <ul style={{ fontSize:10 }}>
+                      <li> • Work closely with the team in building the website</li>
+                      <li> • Work using CodeIgniter framework to build the system</li>
+                      <li> • Responsible for handling API data</li>
+                      <li> • Responsible for creating website front-end modules</li>
+                      <li> • Responsible for creating master data page</li>
+                    </ul>
+                    <a href='../apps' className='btn btn-sm btn-primary mt-3'>Project: Capital Investment Plan System App</a>
+                </div>
+            </div>
+            <div class="time-container right">
+                <div class="time-content">
                     <h2>February - August 2022</h2>
                     <h4 style={{ color: '#474e5d' }} className='mt-2'><strong>Backend Engineer - Apprenticeship</strong></h4>
                     <h6><small>Yayasan Anak Bangsa Bisa (Gen. GIGIH 2.0)</small></h6>
@@ -51,7 +68,7 @@ export default function About() {
                     <a href='../apps' className='btn btn-sm btn-primary mt-3'>Product: Library App</a>
                 </div>
             </div>
-            <div class="time-container right">
+            <div class="time-container left">
                 <div class="time-content">
                     <h2>July - August 2021</h2>
                     <h4 style={{ color: '#474e5d' }} className='mt-2'><strong>Android Developer - Internship</strong></h4>
