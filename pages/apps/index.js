@@ -135,7 +135,7 @@ export default function Apps() {
                                         </div>
                                     </div>
                                 </div>
-                                <h5 className="card-text pb-2">Capital Investment Planning (CIP) is a process, methodology and tool to identify priority infrastructure in a city's development plan.</h5>
+                                <h5 className="card-text pb-2">Capital Investment Planning (CIP) is a process, methodology and tool to identify priority infrastructure in a city&apos;s development plan.</h5>
                                 <button onClick={() => handleClick(Constant.CIP_URL)} className="btn btn-primary">Visit Web</button>
                             </div>
                         </div>
@@ -160,7 +160,7 @@ export default function Apps() {
                                         </div>
                                     </div>
                                 </div>
-                                <h5 className="card-text pb-2">BERGERAK1912 is an application intended for volunteers of one of Indonesia's presidential candidates in the 2024 election</h5>
+                                <h5 className="card-text pb-2">BERGERAK1912 is an application intended for volunteers of one of Indonesia&apos;s presidential candidates in the 2024 election</h5>
                             </div>
                         </div>
                     </div>
